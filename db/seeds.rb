@@ -312,7 +312,7 @@ events = []
 event1 = Event.new(
   event_type: "running",
   name: "Fractionné",
-  date: DateTime.new(2022, 12, 11, 15),
+  date: DateTime.new(2022, 12, 18, 15),
   description: "Fractionné le long de la Vilaine à plusieurs pour se motiver! 12 x 300 m à 15km/h, 40 secondes de récupération entre les séries",
   max_people: 20,
   meeting_point: "20 Rue Jules Vallès, 35000 Rennes",
@@ -331,7 +331,7 @@ Participation.create(event: event1, user: event1.organizer)
 event2 = Event.new(
   event_type: "running",
   name: "Sortie longue",
-  date: DateTime.new(2022, 12, 4, 12, 30),
+  date: DateTime.new(2022, 12, 11, 12, 30),
   description: "Sortie longue à un rythme tranquille. Départ du centre de Rennes",
   meeting_point: "Place de la République, 35000 Rennes",
   max_people: 8,
@@ -349,8 +349,8 @@ Participation.create(event: event2, user: event2.organizer)
 
 event3 = Event.new(
   event_type: "running",
-  name: "10km nocture",
-  date: DateTime.new(2022, 12, 10, 18),
+  name: "10km nocturne",
+  date: DateTime.new(2022, 12, 17, 18),
   description: "Sortie en soirée, pensez à votre lampe frontale 😉",
   meeting_point: "11 Rue de Châtillon, 35000 Rennes",
   max_people: 10,
@@ -369,7 +369,7 @@ Participation.create(event: event3, user: event3.organizer)
 event4 = Event.new(
   event_type: "running",
   name: "Entrainement 10km",
-  date: DateTime.new(2022, 12, 11, 14),
+  date: DateTime.new(2022, 12, 18, 14),
   description: "Séance d'entrainement à la piste du Stade Rennais Athéltisme en préparation de la course Tout Betton Court. 2 séries de 6 x 300m à 100% VMA 16km/h avec une récupération de 45 secondes entre les 300m et 3 minutes entre les séries.",
   meeting_point: "13 Rue Zacharie Roussin, 35700 Rennes",
   max_people: 5,
@@ -388,7 +388,7 @@ Participation.create(event: event4, user: event4.organizer)
 event5 = Event.new(
   event_type: "running",
   name: "Allure spécifique",
-  date: DateTime.new(2022, 12, 12, 12, 30),
+  date: DateTime.new(2022, 12, 19, 12, 30),
   description: "Entraînement à allure spécifique dans le Parc des Gayeulles. Echauffement, puis 6 x 1km à 4:30/km, récupération 1min entre chaque série",
   meeting_point: "8 Av. des Gayeulles, 35700 Rennes",
   max_people: 30,
@@ -407,8 +407,8 @@ Participation.create(event: event5, user: event5.organizer)
 event6 = Event.new(
   event_type: "running",
   name: "Trail aux étangs",
-  date: DateTime.new(2022, 12, 10, 10),
-  description: "Trail aux étangs d'Apignés pour éliminer avant les fêtes, venez motivés et bien équipés !",
+  date: DateTime.new(2022, 12, 17, 10),
+  description: "Trail aux étangs d'Apignés pour éliminer, venez motivés et bien équipés !",
   meeting_point: "La Piverdière, 35000 Rennes",
   max_people: 7,
   difficulty: "confirmé",
@@ -426,7 +426,7 @@ Participation.create(event: event6, user: event6.organizer)
 event7 = Event.new(
   event_type: "running",
   name: "Marche nordique",
-  date: DateTime.new(2022, 12, 11, 10, 30),
+  date: DateTime.new(2022, 12, 18, 10, 30),
   description: "Venez essayer la marche nordique à Rennes.",
   meeting_point: "2 b Rue Malaguti, 35000 Rennes",
   max_people: 10,
@@ -445,7 +445,7 @@ Participation.create(event: event7, user: event7.organizer)
 event8 = Event.new(
   event_type: "running",
   name: "Footing tranquille",
-  date: DateTime.new(2022, 12, 11, 15),
+  date: DateTime.new(2022, 12, 18, 15),
   description: "Footing tranquille le long de la Vilaine, rdv au bout du Mail",
   meeting_point: "68 Mail François Mitterrand, 35000 Rennes",
   max_people: 10,
@@ -464,7 +464,7 @@ Participation.create(event: event8, user: event8.organizer)
 event9 = Event.new(
   event_type: "running",
   name: "Entraînement côtes",
-  date: DateTime.new(2022, 12, 13, 17, 45),
+  date: DateTime.new(2022, 12, 20, 17, 45),
   description: "Entraînement côtes au parc du Thabor.",
   meeting_point: "Parc du Thabor, 35000 Rennes",
   max_people: 5,
@@ -487,7 +487,7 @@ puts "Creating surf events..."
 event10 = Event.new(
   event_type: "surf",
   name: "Session à Quiberon",
-  date: DateTime.new(2022, 11, 19, 8, 30),
+  date: DateTime.new(2022, 12, 10, 8, 30),
   description: "Session surf à Quiberon au départ de Rennes, rdv au métro Villejean",
   meeting_point: "10 rue du Rue Doyen Denis Leroy, 35000 Rennes",
   car_pooling: true,
@@ -507,7 +507,7 @@ Participation.create(event: event10, user: event10.organizer)
 event11 = Event.new(
   event_type: "surf",
   name: "Session à Fréhel",
-  date: DateTime.new(2022, 12, 12, 9),
+  date: DateTime.new(2022, 12, 19, 9),
   description: "Session surf au Cap Fréhel au départ de la gare de Rennes",
   meeting_point: "19 Place de la Gare, 35005 Rennes",
   car_pooling: true,
@@ -527,7 +527,7 @@ Participation.create(event: event11, user: event11.organizer)
 event12 = Event.new(
   event_type: "surf",
   name: "Session aux Rosaires",
-  date: DateTime.new(2022, 11, 26, 11),
+  date: DateTime.new(2022, 12, 3, 11),
   description: "Session détente, ramenez votre pique-nique !",
   meeting_point: "2D Rue de la Croix Lormel, 22190 Plérin",
   car_pooling: true,
@@ -547,7 +547,7 @@ Participation.create(event: event12, user: event12.organizer)
 event13 = Event.new(
   event_type: "surf",
   name: "Session à Aber",
-  date: DateTime.new(2022, 12, 11, 11),
+  date: DateTime.new(2022, 12, 18, 11),
   description: "Session de surf à Tregana, spot très agréable",
   meeting_point: "13-25 Bon Plaisir, 29870 Landéda",
   car_pooling: true,
@@ -567,7 +567,7 @@ Participation.create(event: event13, user: event13.organizer)
 event14 = Event.new(
   event_type: "surf",
   name: "Session à Tregana",
-  date: DateTime.new(2022, 12, 13, 14),
+  date: DateTime.new(2022, 12, 20, 14),
   description: "Spot dificile, attention au shortbreak ! Départ de Brest !",
   meeting_point: "Château de Brest, Bd de la Marine, 29200 Brest",
   car_pooling: true,
@@ -674,7 +674,7 @@ sortie1 = Event.find_by(name: "Sortie longue")
 chat1 = Chatroom.create!(
   event: sortie1,
   name: sortie1.name,
-  created_at: DateTime.new(2022, 12, 4, 12, 20)
+  created_at: DateTime.new(2022, 12, 5, 12, 20)
 )
 
 message1 = Message.create!(
@@ -726,13 +726,13 @@ message1 = Message.create!(
   chatroom: chat4,
   user: User.find_by(first_name: "Clément"),
   content: "Hello à tous j'ai encore des places dispo en covoiturage si ça vous tente !",
-  created_at: DateTime.new(2022, 12, 7, 11)
+  created_at: DateTime.new(2022, 12, 8, 11)
 )
 message2 = Message.create!(
   chatroom: chat4,
   user: User.find_by(first_name: "Olivier"),
   content: "Salut ! Parfait ça m'intéresse",
-  created_at: DateTime.new(2022, 12, 7, 12, 35)
+  created_at: DateTime.new(2022, 12, 8, 12, 35)
 )
 message3 = Message.create!(
   chatroom: chat4,
@@ -797,3 +797,76 @@ message3 = Message.create!(
   content: "Top, à dimanche !",
   created_at: DateTime.new(2022, 12, 8, 13)
 )
+
+sortie6 = Event.find_by(name: "Fractionné")
+
+chat6 = Chatroom.create!(
+  event: sortie6,
+  name: sortie6.name,
+  created_at: DateTime.new(2022, 12, 10, 15)
+)
+
+sortie7 = Event.find_by(name: "10km nocturne")
+
+chat7 = Chatroom.create!(
+  event: sortie7,
+  name: sortie7.name,
+  created_at: DateTime.new(2022, 12, 10, 18)
+)
+
+sortie8 = Event.find_by(name: "Entrainement 10km")
+
+chat8 = Chatroom.create!(
+  event: sortie8,
+  name: sortie8.name,
+  created_at: DateTime.new(2022, 12, 11, 14)
+)
+
+sortie9 = Event.find_by(name: "Allure spécifique")
+
+chat9 = Chatroom.create!(
+  event: sortie9,
+  name: sortie9.name,
+  created_at: DateTime.new(2022, 12, 12, 12, 30)
+)
+
+sortie10 = Event.find_by(name: "Trail aux étangs")
+
+chat10 = Chatroom.create!(
+  event: sortie10,
+  name: sortie10.name,
+  created_at: DateTime.new(2022, 12, 10, 10)
+)
+
+sortie11 = Event.find_by(name: "Marche nordique")
+
+chat11 = Chatroom.create!(
+  event: sortie11,
+  name: sortie11.name,
+  created_at: DateTime.new(2022, 12, 11, 10, 30)
+)
+
+sortie12 = Event.find_by(name: "Entraînement côtes")
+
+chat12 = Chatroom.create!(
+  event: sortie12,
+  name: sortie12.name,
+  created_at: DateTime.new(2022, 12, 13, 17, 45)
+)
+
+sortie13 = Event.find_by(name: "Session à Aber")
+
+chat13 = Chatroom.create!(
+  event: sortie13,
+  name: sortie13.name,
+  created_at: DateTime.new(2022, 12, 11, 11)
+)
+
+sortie14 = Event.find_by(name: "Session à Tregana")
+
+chat14 = Chatroom.create!(
+  event: sortie14,
+  name: sortie14.name,
+  created_at: DateTime.new(2022, 12, 13, 14)
+)
+
